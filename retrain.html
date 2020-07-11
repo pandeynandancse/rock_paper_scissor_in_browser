@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="index.css" >
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+<script src="webcam.js"></script>
+<script src="rps-dataset.js"></script>
+</head>
+<body style = "background-image: url(https://s3-eu-west-1.amazonaws.com/sales-i-wordpress/wp-content/uploads/2015/12/17112848/black-background.jpg)">
+
+	<center>
+	<br>
+		<div>
+			<div>
+				<video autoplay playsinline muted id="wc" class = "video_pic"  width="224" height="224"></video>
+			</div>
+		</div>
+
+
+
+
+		<div style = "margin-top: 2%">
+				<button type="button" class="btn btn-primary sub1"  id="0" onclick="handleButton(this)" >Rock</button>
+				<button type="button" class="btn btn-primary sub1"  id="1" onclick="handleButton(this)" >Paper</button>
+				<button type="button" class="btn btn-primary sub1"id="2" onclick="handleButton(this)" >Scissors</button>
+ 	    </div>
+
+
+
+	    <div style = "margin-top: 2%">
+			<div id="rocksamples">Rock Samples:</div>
+			<div id="papersamples">Paper Samples:</div>
+			<div id="scissorssamples">Scissors Samples:</div>
+		</div>
+
+
+
+
+		<br>
+	    <button type="button" class="btn btn-success" id="train" onclick="doTraining()" >Train Network</button>
+	    <br><br>
+
+
+
+
+	    <div id="prediction">
+	    </div>
+
+
+
+
+		<div id="dummy">Once training is complete, click 'Start Predicting' to see predictions, and 'Stop Predicting' to end</div>
+		<button type="button" class="btn btn-info"  id="startPredicting" onclick="startPredicting()" >Start Predicting</button>
+		<button type="button" class="btn btn-danger"  id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
+
+	</center>
+</body>
+
+<script src="index.js"></script>
+</html>
