@@ -67,7 +67,7 @@ If you'd like to do some contribution, feel free to do so by opening a pull requ
 
 
 [<img target="_blank" src="https://miro.medium.com/max/1200/1*1iMg5fkBKlMuNXhpuFsdQA.png" width=170>](https://www.tensorflow.org/js) 
-
+[<img target="_blank" src="https://i.imgur.com/1v4detT.png" width=170>](https://www.tensorflow.org/js) 
 
 
 ## Contributor
