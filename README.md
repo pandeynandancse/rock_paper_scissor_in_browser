@@ -79,4 +79,4 @@ If you'd like to do some contribution, feel free to do so by opening a pull requ
 
  
 ## Credit
-Thanks to coursera and Laurence Moroney, AI Lead at google brain,  with the help of whose this project is successfully made. Sole purpose of this project was to understand using Tensoflow js for in browser training and prediction.
+Thanks to coursera and Laurence Moroney, AI Lead at google brain,  with the help of whose this project is successfully made. Sole purpose of this project was to understand using Tensoflow js for in-browser training and prediction.
