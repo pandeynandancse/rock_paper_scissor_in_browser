@@ -9,6 +9,7 @@
   * [Contribution](#contribution)
   * [Technologies Used](#technologies-used)
   * [Contributor](#contributor)
+  * [Credit](#credit)
 
 
 ## Demo
@@ -77,3 +78,5 @@ If you'd like to do some contribution, feel free to do so by opening a pull requ
 
 
  
+## Credit
+Thanks to coursera and Laurence Moroney, AI Lead at google brain,  with the help of whose this project is successfully made. 
